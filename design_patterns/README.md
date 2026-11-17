@@ -30,17 +30,27 @@ scooter_lane
 - Python compilation: Passed
 - PEP 8: Passed
 
+
 ## Task 1: Observer — Adding a New Subscriber
 
-Pending implementation.
+**File:** `1-observer.py`
 
-## Task 2: Decorator — Adding a New Wrapper
+Implemented:
+- Created SmsObserver with an update() method.
+- Subscribed SMS notifications exclusively to the breaking topic.
+- Preserved NewsSubject and existing observers.
 
-Pending implementation.
+**Expected output:**
+```text
+email:weather=rain
+log:sports=goal
+email:sports=goal
+log:breaking=alert
+email:breaking=alert
+sms:breaking=alert
+```
 
-## Requirements
-
-- Python 3.10+
-- PEP 8 compliance
-- Python 3 shebang
-- No external dependencies required
+**Validation:**
+- Execution: Passed
+- Python compilation: Passed
+- PEP 8: Passed
