@@ -54,3 +54,31 @@ sms:breaking=alert
 - Execution: Passed
 - Python compilation: Passed
 - PEP 8: Passed
+
+## Task 2: Decorator — Adding a New Wrapper
+
+**File:** `2-decorator.py`
+
+Implemented:
+- Created CaramelDecorator to wrap any Beverage.
+- Added 15 to the wrapped beverage's cost.
+- Appended " + caramel" to its description.
+- Combined CaramelDecorator with MilkDecorator and SugarDecorator.
+- Preserved all existing beverage classes.
+
+**Expected output:**
+- Coffee + milk 60
+- Coffee + sugar + milk 65
+- Coffee + sugar + milk + caramel 80
+
+**Validation:**
+- Execution: Passed
+- Python compilation: Passed
+- PEP 8: Passed
+
+## Requirements
+
+- Python 3.10 or later
+- PEP 8 compliance
+- Python 3 shebang in submitted files
+- No external dependencies required
